@@ -12,6 +12,7 @@ public class Bank {
         users.add(new User(2,"Usuario2",2,10000.0));
         users.add(new User(3,"Usuario3",3,1000000.0));
         users.add(new User(4,"Usuario4",4,500.0));
+
     }
 
     public static void main(String[] args) {
