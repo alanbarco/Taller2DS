@@ -1,14 +1,9 @@
 # Taller2DS
 
 Crear Usuario
+![ScreenShot](/screenshots/foto2.png)
 
 
 
-
-Realizar Transaccion Bancaria
-
-
-
-
-
-Retirar Dinero
+Realizar Transaccion Bancaria y Retirar Dinero
+![ScreenShot](/screenshots/foto1.jfif)
