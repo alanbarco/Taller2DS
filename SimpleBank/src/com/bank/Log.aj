@@ -1,8 +1,10 @@
 package com.bank;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.Calendar;
 
 public aspect Log {
 	File file = new File("src/com/bank/Log.txt");
@@ -25,10 +27,9 @@ public aspect Log {
     	}else {
     		tipo = "Retirar dinero";
     	}
-    	System.out.println("Entering: " + thisJoinPoint);
+    	
     	linea = tipo + " " + cal.getTime().toString() + "\n";
-    	System.out.println(cal.getTime());
-    	System.out.println(tipo); //
+    	System.out.println(tipo+" "+cal.getTime());
     	FileWriter fichero = null;
     	BufferedWriter bw = null;
     	PrintWriter pw = null;
